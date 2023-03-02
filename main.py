@@ -1,5 +1,5 @@
 import os
-FOLDER_PATH = "C:\\Users\\pkakarap\\PycharmProjects\\100DaysOfCode"
+FOLDER_PATH = "C:\\Users\\rreddyja\\PycharmProjects\\100DaysOfCode"
 folders = ["Day{}".format(i) for i in range(1, 101)]
 for folder in folders:
     if os.path.isdir("./{}".format(folder)):
